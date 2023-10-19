@@ -112,14 +112,14 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+/* h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
   }
-}
+} */
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
@@ -139,9 +139,9 @@ h4, .h4 {
   }
 }
 
-h5, .h5 {
+/* h5, .h5 {
   font-size: 1.25rem;
-}
+}*/
 
 h6, .h6 {
   font-size: 1rem;
@@ -233,11 +233,11 @@ a {
   color: #0d6efd;
   text-decoration: underline;
 }
-/* a:hover {
+a:hover {
   color: #0a58ca;
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
+/*a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
@@ -372,6 +372,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -575,26 +576,26 @@ progress {
   text-transform: uppercase;
 }*/
 
-.blockquote {
+/* .blockquote {
   margin-bottom: 1rem;
   font-size: 1.25rem;
-}
-.blockquote > :last-child {
+} */
+/* .blockquote > :last-child {
   margin-bottom: 0;
-}
+} */
 
-.blockquote-footer {
+/* .blockquote-footer {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
   color: #6c757d;
-}
-.blockquote-footer::before {
+} */
+/* .blockquote-footer::before {
   content: "— ";
-}
+} */
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -1738,8 +1739,8 @@ progress {
     --bs-gutter-y: 3rem;
   }*/
 }
-/*@media (min-width: 1400px) {
-  .col-xxl {
+@media (min-width: 1400px) {
+  /*.col-xxl {
     flex: 1 0 0%;
   }
 
@@ -1949,9 +1950,9 @@ progress {
   .g-xxl-5,
 .gy-xxl-5 {
     --bs-gutter-y: 3rem;
-  }
+  }*/
 }
-.table {
+/*.table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
   --bs-table-striped-color: #212529;
@@ -3933,11 +3934,11 @@ textarea.form-control-lg {
 .nav-link:hover, .nav-link:focus {
   color: #0a58ca;
 }
-.nav-link.disabled {
+/* .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
-}
+} */
 
 /*.nav-tabs {
   border-bottom: 1px solid #dee2e6;

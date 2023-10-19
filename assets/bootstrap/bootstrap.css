@@ -6933,7 +6933,6 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
-  height: 100%;
 }
 
 .w-auto {
@@ -6950,7 +6949,6 @@ textarea.form-control-lg {
 
 .min-vw-100 {
   min-width: 100vw !important;
-  height: 100%;
 }
 
 .h-25 {
