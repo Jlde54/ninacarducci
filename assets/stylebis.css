@@ -6,6 +6,88 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+h1 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: calc(1.3rem + 0.6vw);
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+        font-size: 1.75rem;
+      }
+  }
+  
+  h2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: calc(1.3rem + 0.6vw);
+  }
+
+  @media (min-width: 1200px) {
+    h2 {
+        font-size: 1.75rem;
+      }
+  }
+  
+  h3 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: calc(1.3rem + 0.6vw);
+  }
+
+  @media (min-width: 1200px) {
+    h3 {
+        font-size: 1.75rem;
+      }
+  }
+  
+  h4 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: calc(1.275rem + 0.3vw);
+  }
+
+  @media (min-width: 1200px) {
+    h4 {
+        font-size: 1.5rem;
+      }
+  }
+  
+  /* h3,
+  h4 {
+    font-weight: 400;
+  } */
+
+  .quote p {
+    font-family: Spectral;
+    font-weight: 300;
+    font-size: calc(1.375rem + 1.5vw);
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  /* @media (min-width: 1200px) {
+    .quote p {
+        font-size: 35px;
+      }
+  } */
+
+  /* h6 {
+    font-family: Spectral;
+    font-weight: 800;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  @media (min-width: 1200px) {
+    h6 {
+        font-size: 16px;
+      }
+  } */
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -85,16 +167,23 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+    font-size: 1rem;
+    line-height: 1.2;
 	width: 60%;
 }
-#about-me p {
+
+/* #about-me p {
+	width: 80%;
+	font-size: 14px;
+} */
+.about-me__paragraphe {
 	width: 80%;
 	font-size: 14px;
 }
 
-/* #gallery { */
+#gallery {
 	/*	min-height: 100vh; */
-/* } */
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -102,24 +191,25 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-/* .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
-} */
-/* .nav-pills .nav-link {
+}
+.nav-pills .nav-link {
 	color: #000
-} */
-/* .item-column {
+}
+.item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
-} */
-/* .item-column::after{
+}
+.item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-} */
+
+}
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -128,7 +218,7 @@ body {
 	object-fit:;
 	padding: .5em;
 }
-/* .mg-prev, .mg-next {
+.mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
 	border-radius: 00%;
@@ -136,7 +226,7 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
-} */
+}
 
 .quote {
 	font-family: 'Spectral';
@@ -260,7 +350,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
@@ -358,4 +448,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
