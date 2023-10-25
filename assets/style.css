@@ -53,11 +53,6 @@ h1 {
         font-size: 1.5rem;
       }
   }
-  
-  /* h3,
-  h4 {
-    font-weight: 400;
-  } */
 
   .quote p {
     font-family: Spectral;
@@ -68,25 +63,6 @@ h1 {
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
-
-  /* @media (min-width: 1200px) {
-    .quote p {
-        font-size: 35px;
-      }
-  } */
-
-  /* h6 {
-    font-family: Spectral;
-    font-weight: 800;
-    font-size: 16px;
-    font-style: italic;
-  }
-
-  @media (min-width: 1200px) {
-    h6 {
-        font-size: 16px;
-      }
-  } */
 
 .top-header {
 	background-color: white;
@@ -172,18 +148,11 @@ h1 {
 	width: 60%;
 }
 
-/* #about-me p {
-	width: 80%;
-	font-size: 14px;
-} */
 .about-me__paragraphe {
 	width: 80%;
 	font-size: 14px;
 }
 
-/* #gallery { */
-	/*	min-height: 100vh; */
-/* } */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -336,6 +305,9 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+.information li {
+	list-style: none;
 }
 
 @media all and (max-width: 1180px) {
